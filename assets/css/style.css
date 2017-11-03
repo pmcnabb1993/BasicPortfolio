@@ -237,3 +237,64 @@ input[type=submit] {
   background: #4682B4;
   border: 0 none;
 }
+
+@media screen and (max-width: 980px) {
+  .sidebar {
+    width: 40%;
+  }
+  .main-section {
+    width: 60%;
+  }
+  #masthead {
+    width: 100%;
+  }
+  #logo {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+  }
+  .main-section {
+    width: 100%;
+  }
+  #masthead {
+    width: 100%;
+  }
+  #logo {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .sidebar {
+    width: 70%;
+    float: none;
+  }
+  .main-section {
+    width: 100%;
+  }
+  #masthead {
+    width: 100%;
+    position: static;
+  }
+  #logo {
+    width: 100%;
+  }
+}
+
+.container {
+  border-bottom: none;
+  z-index: -1;
+}
+
+
+
+
+
+
+
+
+
